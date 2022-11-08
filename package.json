@@ -4,7 +4,7 @@
   "author": "MindtreeMdlz",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anasrezamindtree/mdlz-comp-package.git"
+    "url": "git@github.com:MindtreeMdlz/components-library.git"
   },
   "publishConfig": {
     "@MindtreeMdlz:registry": "https://npm.pkg.github.com"
@@ -24,6 +24,19 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
+  "description": "Two test React components",
+  "keywords": [
+    "react",
+    "components",
+    "ui"
+  ],
+  "private": false,
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "scripts": {
     "start": "react-scripts start",
     "build": "babel src/lib --out-dir dist --copy-files"
