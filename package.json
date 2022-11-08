@@ -2,6 +2,18 @@
   "name": "components-library",
   "version": "0.1.0",
   "author": "MindtreeMdlz",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anasrezamindtree/mdlz-comp-package.git"
+  },
+  "publishConfig": {
+    "@MindtreeMdlz:registry": "https://npm.pkg.github.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MindtreeMdlz/components-library/issues"
+  },
+  "homepage": "https://github.com/MindtreeMdlz/components-library#readme",
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
     "@testing-library/jest-dom": "^5.16.5",
