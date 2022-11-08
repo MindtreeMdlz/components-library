@@ -4,7 +4,7 @@
   "author": "MindtreeMdlz",
   "repository": {
     "type": "git",
-    "url": "git@github.com:MindtreeMdlz/components-library.git"
+    "url": "git+https://github.com/MindtreeMdlz/components-library.git"
   },
   "publishConfig": {
     "@MindtreeMdlz:registry": "https://npm.pkg.github.com"
